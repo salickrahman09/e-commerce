@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nursery</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-1">
+        <div class="share">
+          <span> follow us :</span>
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-instagram"></a>
+        </div>
+
+        <div class="call">
+          <span> call us :</span>
+          <a href="#">+91-123-456-7890</a>
+        </div>
+      </div>
+
+      <div class="header-2">
+        <a href="#" class="logo"> <i class="fas fa-seedling"></i>LOGO</a>
+        <form action="" class="search-bar-container">
+          <input type="search" id="search-bar" placeholder="search here..." />
+          <label for="search-bar" class="fas fa-search"></label>
+        </form>
+      </div>
+      <div class="header-3">
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <nav class="navbar">
+          <a href="#home">home</a>
+          <a href="#category">category</a>
+          <a href="#product">product</a>
+          <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-user-circle"></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="box" style="background: url(images/slide-1.jpg)">
+              <div class="content">
+                <span>upto 45% off</span>
+                <h3>Plant big sale offer</h3>
+                <a href="#" class="btn">shop now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="box" style="background: url(images/slide-2.jpg)">
+              <div class="content">
+                <span>upto 25% off</span>
+                <h3>Plant makes people happy</h3>
+                <a href="#" class="btn">shop now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="box" style="background: url(images/slide-3.jpg)">
+              <div class="content">
+                <span>upto 10% off</span>
+                <h3>Decorate your home now</h3>
+                <a href="#" class="btn">shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="banner-container">
+      <div class="banner">
+        <img src="images/banner-1.jpg" alt="" />
+        <div class="content">
+          <span>new arrivals</span>
+          <h3>house plants</h3>
+          <a href="#" class="btn">shop now</a>
+        </div>
+      </div>
+
+      <div class="banner">
+        <img src="images/banner-2.jpg" alt="" />
+        <div class="content">
+          <span>new arrivals</span>
+          <h3>office plants</h3>
+          <a href="#" class="btn">shop now</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="category" id="category">
+      <h1 class="heading">shop by category</h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/cat-1.jpg" alt="" />
+          <div class="content">
+            <h3>Bonsai</h3>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/cat-2.jpg" alt="" />
+          <div class="content">
+            <h3>Plants for house</h3>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/cat-3.jpg" alt="" />
+          <div class="content">
+            <h3>Plants for office</h3>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/cat-4.jpg" alt="" />
+          <div class="content">
+            <h3>Gift plants</h3>
+            <a href="#" class="btn">shop now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="product" id="product">
+      <h1 class="heading">new product</h1>
+      <div class="box-container">
+        <div class="box">
+          <span class="discount"> -10% </span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product-1.jpg" alt="" />
+          <h3>latest plants</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="quantity">
+            <span> quantity : </span>
+            <input type="number" min="1" max="100" value="1" />
+          </div>
+          <div class="price">₹399 <span>₹499</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount"> -10% </span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product-2.jpg" alt="" />
+          <h3>latest plants</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="quantity">
+            <span> quantity : </span>
+            <input type="number" min="1" max="100" value="1" />
+          </div>
+          <div class="price">₹399 <span>₹499</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount"> -10% </span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product-3.jpg" alt="" />
+          <h3>latest plants</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="quantity">
+            <span> quantity : </span>
+            <input type="number" min="1" max="100" value="1" />
+          </div>
+          <div class="price">₹399 <span>₹499</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount"> -10% </span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product-4.jpg" alt="" />
+          <h3>latest plants</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="quantity">
+            <span> quantity : </span>
+            <input type="number" min="1" max="100" value="1" />
+          </div>
+          <div class="price">₹399 <span>₹499</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount"> -10% </span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product-5.jpg" alt="" />
+          <h3>latest plants</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="quantity">
+            <span> quantity : </span>
+            <input type="number" min="1" max="100" value="1" />
+          </div>
+          <div class="price">₹399 <span>₹499</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <span class="discount"> -10% </span>
+          <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-share"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <img src="images/product-6.jpg" alt="" />
+          <h3>latest plants</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="quantity">
+            <span> quantity : </span>
+            <input type="number" min="1" max="100" value="1" />
+          </div>
+          <div class="price">₹399 <span>₹499</span></div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="icons-container">
+      <div class="icon">
+        <img src="images/icon-1.png" alt="" />
+        <div class="content">
+          <h3>free shipping</h3>
+          <p>free shipping on order</p>
+        </div>
+      </div>
+
+      <div class="icon">
+        <img src="images/icon-2.png" alt="" />
+        <div class="content">
+          <h3>100% money back</h3>
+          <p>you've 5 days to return</p>
+        </div>
+      </div>
+
+      <div class="icon">
+        <img src="images/icon-3.png" alt="" />
+        <div class="content">
+          <h3>Secure payment</h3>
+          <p>100% secure payment</p>
+        </div>
+      </div>
+
+      <div class="icon">
+        <img src="images/icon-4.png" alt="" />
+        <div class="content">
+          <h3>Support 24/7</h3>
+          <p>Contact us anytime</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h1 class="heading">get in touch</h1>
+      <div class="row">
+        <iframe class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14395.07722471922!2d85.08124604543097!3d25.57934079417086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f2a81c2e0a3ffd%3A0xe08ec2aaa2fca733!2sAnisabad%2C%20Patna%2C%20Bihar!5e0!3m2!1sen!2sin!4v1727884771434!5m2!1sen!2sin"
+          allowfullscreen=""
+          loading="lazy"></iframe>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" required>
+                <label>name</label>
+            </div>
+            <div class="inputBox">
+                <input type="text" required>
+                <label>email</label>
+            </div>
+            <div class="inputBox">
+                <input type="text" required>
+                <label>number</label>
+            </div>
+            <div class="inputBox">
+                <textarea required name="" id="" cols="30" rows="10"></textarea>
+                <label>message</label>
+            </div>
+
+            <input type="submit" value="send message" class="btn">
+        </form>
+      </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus cum quis temporibus, harum cumque quam dolores perferendis possimus repellendus iure.</p>
+            </div>
+            <div class="box">
+                <h3>branch location</h3>
+                <a href="#">Patna</a>
+                <a href="#">gaya</a>
+                <a href="#">bihar sharif</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">category</a>
+                <a href="#">product</a>
+                <a href="#">contact</a>
+            </div>
+
+            <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+        </div>
+
+        </div>
+
+       <h1 class="credit">nursery <span>company name</span> | all rights & reserved! ©2024|</h1>
+    </section>
+
+    <a href="#home" class="scroll-top fas fa-angle-up"></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
